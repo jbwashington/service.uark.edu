@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pcf-stylesheet path="/xsl/interior.xsl" site="templates" extension="php"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document xmlns:ouc="http://omniupdate.com/XSL/Variables">
+    <headcode></headcode>
+    <bodycode></bodycode>
+    <config>
+        <parameter name="pagetype">interior</parameter>
+        <!-- com.omniupdate.properties -->
+        <parameter name="numcols" type="select" group="everyone" prompt="Number of Columns" alt="Select the number of columns for the page layout.">
+            
+<option value="1" selected="false">One (no sidebar)</option>
+<option value="2" selected="true">Two</option>
+<option value="3" selected="false">Three</option>
+<option value="4" selected="false">Four</option>
+        </parameter>
+        <!-- /com.omniupdate.properties -->
+    </config>
+
+    <!-- com.omniupdate.properties -->
+    <title>Events</title>
+    <!-- /com.omniupdate.properties -->
+
+    <metadata>
+        <!-- com.omniupdate.properties -->
+        <meta name="Description" content="Events brought to you by the Center for Community Engagement" />
+        <meta name="Keywords" content="events, center, community, engagement, fayetteville, university, arkansas, rogers, bentonville, springdale, service, volunteer" />
+        <meta name="Author" content="" />
+        <!-- /com.omniupdate.properties -->
+    </metadata>
+
+
+    <leftcolumn>
+        <!-- com.omniupdate.div label="coltwocontent" group="everyone" button="707" break="break" -->
+        <!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+        <h2>Left Column</h2>
+
+        <!-- /com.omniupdate.div -->
+    </leftcolumn>
+
+    <maincontent>
+        <!-- com.omniupdate.div label="maincontent" group="everyone" button="707" break="break" --><!-- ouc:editor csspath="/_resources/ou/editor/ouedit.css" cssmenu="/_resources/ou/editor/styles.txt" width="1200"/ --><!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+<div class="container">
+<h1 style="text-align: center;"><span style="color: inherit; font-family: inherit; font-size: 31.5px;"><img class="img-responsive" style="float: left;" src="{{f:66837}}" alt="make a difference day flyer" width="197" height="256" />Volunteer Registration now OPEN!</span></h1>
+<p style="text-align: center;">Over 1,000 volunteer opportunities and 40 agencies and projects to choose from.</p>
+<p style="text-align: center;"><a class="btn btn-primary btn-lg" role="button" href="http://volunteer.uark.edu">Learn more »</a></p>
+</div>
+</div>
+<!-- start info columns -->
+<div class="col-md-3">
+<h2>Make a Difference Day</h2>
+<p>Make a Difference Day will take place on November 1, 2014! Details on how to register for this day of service can be found at <a href="http://volunteer.uark.edu"><span style="text-decoration: underline;">volunteer.uark.edu</span></a>. Make a Difference Day last year was able to make an economic impact of over $108,000 with over 1,300 Northwest Arkansas community members. Come join us for Make a Difference Day 2014 and help us make a greater impact in our community!</p>
+<p style="text-align: left;"><a class="btn btn-default" role="button" href="{{f:48799}}">Learn more »</a></p>
+</div>
+<div class="col-md-3">
+<h2>Martin Luther King Jr. Day of Service</h2>
+<p>Martin Luther King Jr. Day of service takes place in January each year. This is an on campus service event sponsored by the Volunteer Action Center partnering with various agencies from our community. Each year a board is displayed where community members can leave their thoughts on MLK Day, one student quoted, “paving the way; leave a legacy for generations to come. Spark within them a dream, hope, compassion!”&nbsp;</p>
+<p style="text-align: left;"><a class="btn btn-default" role="button" href="{{f:48796}}">Learn more »</a></p>
+</div>
+<div class="col-md-3">
+<h2>Race for the Cure</h2>
+<p>Susan G. Komen Foundation sponsors breast cancer research awareness and fundraising through their over 140 Race for the Cure races across the country. In April, the Ozark Race for the Cure takes place in Rogers, AR. The Volunteer Action center staffs volunteers for race day activities such as face painting, race set up, and registration.</p>
+<p style="text-align: left;"><a class="btn btn-default" role="button" href="{{f:48797}}">Learn more »</a></p>
+</div>
+<div class="col-md-3">
+<h2>Hogs Care Week</h2>
+<p>#HogsCare is a week of random acts of kindness and a social media challenge for all community members spreading kindness to their friends and strangers alike. Partnering with the Arkansas Alumni Association, several departments on campus worked to show that Hogs really do Care on this week each spring!</p>
+<p style="text-align: left;"><a class="btn btn-default" role="button" href="{{f:48798}}">Learn more »</a></p>
+</div>
+<!-- end info columns --> <!--./start clearfix and horizontal rule--> <!-- <div class="clearfix"></div> --> <!-- <br /> --> <!-- <hr /> --> <!-- <br /> --> <!--./end clearfix and horizontal rule--> <!-- start application status --> <!-- <div class="col-md-6"> --> <!--     <h1>Interested in Getting Involved?</h1> --> <!--     <p>Fall volunteer applications are closed.  Spring volunteer applications will be available in January.</p> --> <!--     <p> --> <!--         <a class="btn btn-lg" href="#" role="button">Find Out More &raquo;</a> --> <!--     </p> --> <!-- </div> --> <!-- end application status --><!-- /com.omniupdate.div -->
+    </maincontent>
+
+    <rightcolumn>
+        <!-- com.omniupdate.div label="colthreecontent" group="everyone" button="707" break="break" -->
+        <!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+        <h2>Right Column</h2>
+
+        <!-- /com.omniupdate.div -->
+    </rightcolumn>
+
+    <far-rightcolumn>
+        <!-- com.omniupdate.div label="colfourcontent" group="everyone" button="707" break="break" -->
+        <!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+        <h2>Far Right Column</h2>
+
+        <!-- /com.omniupdate.div -->
+    </far-rightcolumn>
+
+</document>

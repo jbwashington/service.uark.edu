@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pcf-stylesheet path="/xsl/interior.xsl" site="templates" extension="php"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document xmlns:ouc="http://omniupdate.com/XSL/Variables">
+    <headcode></headcode>
+    <bodycode></bodycode>
+    <config>
+        <parameter name="pagetype">interior</parameter>
+<!-- com.omniupdate.properties -->
+<parameter name="numcols" type="select" group="everyone" prompt="Number of Columns" alt="Select the number of columns for the page layout.">
+    <option value="1" selected="false">One (no sidebar)</option>
+    <option value="2" selected="true">Two</option>
+    <option value="3" selected="false">Three</option>
+    <option value="4" selected="false">Four</option>
+</parameter>
+<!-- /com.omniupdate.properties -->
+</config>
+
+<!-- com.omniupdate.properties -->
+<title>Center for Community Engagement</title>
+<!-- /com.omniupdate.properties -->
+
+<metadata>
+<!-- com.omniupdate.properties -->
+<meta name="Description" content="Center for Community Engagement" />
+<meta name="Keywords" content="Center for Community Engagement" />
+<meta name="Author" content="" />
+<!-- /com.omniupdate.properties -->
+</metadata>
+
+
+<leftcolumn>
+<!-- com.omniupdate.div label="coltwocontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Left Column</h2>
+
+<!-- /com.omniupdate.div -->
+</leftcolumn>
+
+<maincontent>
+<!-- com.omniupdate.div label="maincontent" group="everyone" button="707" break="break" --><!-- ouc:editor csspath="/_resources/ou/editor/ouedit.css" cssmenu="/_resources/ou/editor/styles.txt" width="1200"/ --><!--start carousel-->
+<p>{{a:248}}</p>
+<hr /><!--end carousel--> <!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<h2>Upcoming Events</h2>
+<p>&nbsp;</p>
+<div class="col-sm-8">
+    <div class="row">
+        <div class="col-sm-4"><img class="img-responsive" src="{{f:66837}}" alt="flyer for make a difference day" width="230" height="298" data-src="http://placehold.it/150x150" /></div>
+        <div class="col-sm-8">
+            <h4>Make A Difference Day</h4>
+            <article>
+                <p>Thank you to our volunteers and agencies for making another Make a Difference Day a HUGE success! &nbsp;Over 1,300 volunteers were able to make a difference in our community this weekend by attending some awesome events, projects and clean ups around Northwest Arkansas!</p>
+            </article>
+            <p><a class="btn btn-default" role="button" href="{{f:48799}}">Learn more »</a></p>
+        </div>
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+    <div class="row">
+        <div class="col-sm-4"><img class="img-responsive" src="{{f:70286}}" alt="logo for dream big" width="100%" height="400" data-src="{{f:70286}}" /></div>
+        <div class="col-sm-8">
+            <h4>Dream BIG</h4>
+            <article>
+                <p>Mentor applications will be available October 24, 2014. Dream B.I.G. Application Available NOW! Join our team and help us plan the best Spring Break empowerment camp yet! Deadline is November 14th at noon.&nbsp;Interested in Mentoring?&nbsp;Come learn more about Dream B.I.G. and our program at our informational sessions:&nbsp;Wednesday November 5th at 5:00pm Arkansas Union 506&nbsp;Monday November 10th at 5:00pm Arkansas Union 506</p>
+            </article>
+            <p><a class="btn btn-default" role="button" href="{{f:48787}}">Learn more »</a></p>
+        </div>
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+<div class="row">
+    <div class="col-sm-4"><img class="img-responsive" src="{{f:67275}}" alt="cgiu logo" width="299" height="168" data-src="{{f:67275}}" /></div>
+    <div class="col-sm-8">
+        <h4>Clinton Global Initiative University</h4>
+        <article>
+            <p>The final deadline to apply for CGIU is December 1, 2015. &nbsp;Learn more about this exciting opportunity today.</p>
+        </article>
+        <p><a class="btn btn-default" role="button" href="{{f:48816}}">Learn more »</a></p>
+    </div>
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+<div class="row">
+    <div class="col-sm-4"><img class="img-responsive" src="{{f:65487}}" alt="placeholder" width="100%" height="168px" data-src="{{f:65487}}" /></div>
+    <div class="col-sm-8">
+        <h4>Feed The Need</h4>
+        <article>
+            <p>Enjoy a meal prepared by Tyson's chefs, featuring dishes created with the most popular items donated at food pantries.</p>
+        </article>
+        <p><a class="btn btn-default" role="button" href="{{f:69307}}">Learn more »</a></p>
+    </div>
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+<div class="row">
+    <div class="col-sm-4"><img class="img-responsive" src="{{f:67278}}" alt="service learning logo" width="307" height="397" data-src="{{f:67278}}" /></div>
+    <div class="col-sm-8">
+        <h4>Service Learning</h4>
+        <p>Are you interested in taking or hosting a service learning course?</p>
+        <p><a class="btn btn-default" role="button" href="{{f:67071}}">Learn more »</a></p>
+    </div>
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+</div>
+<div class="col-sm-4">
+    <div class="well well-sm">
+        <style><!--
+                #serviceEvents hr {
+                    margin-top: 0px !important;
+                    margin-bottom: 5px !important;
+                }
+
+--></style>
+<script type="text/javascript">// <![CDATA[
+    $(function (){
+    $.ajax({
+    type: 'GET',
+    url: '{{f:47389}}',
+    data: { requrl: "http://volunteer.uark.edu/rss/volunteer-opportunity-calendar.xml" },
+    success: function (xml) {
+    var list_data = "";
+    var terms = $(xml).find('item').get().slice(0,5);
+    terms.sort(function (t1, t2) {
+    var h1 = (new Date($(t1).find('pubDate').text())),
+    h2 = (new Date($(t2).find('pubDate').text()));
+    return (h1 < h2) ? -1 : (h1 > h2) ? 1 : 0;
+    })
+
+    $.each(terms, function () {
+    var title = $(this).find('title').text();
+    var description = $(this).find('description').text();
+    description = description.replace("â€˜","'").replace("â€™","'").replace("â€œ","\"").replace("â€","\"");
+    var link = $(this).find('link').text();
+
+    list_data += '<div class="listEvent" style="margin: 10px 0;"><h4><a href="' + link + '">' + title + '</a></h4><p>' + description + '</p></div>';
+    });
+    $("#serviceEvents").append(list_data);
+
+    }
+    });
+
+
+    });
+
+    // ]]></script>
+<div id="serviceEvents"></div>
+</div>
+</div><!-- /com.omniupdate.div -->
+</maincontent>
+
+<rightcolumn>
+<!-- com.omniupdate.div label="colthreecontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Right Column</h2>
+
+<!-- /com.omniupdate.div -->
+</rightcolumn>
+
+<far-rightcolumn>
+<!-- com.omniupdate.div label="colfourcontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Far Right Column</h2>
+
+<!-- /com.omniupdate.div -->
+</far-rightcolumn>
+
+</document>

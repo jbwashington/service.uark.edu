@@ -1,0 +1,43 @@
+<!-- start header pic-->
+<div class="col-md-12"><img class="img-responsive" src="{{f:69041}}" alt="young child with face painted" width="100%" height="400" data-src="{{f:69041}}" /> <!-- start block quote -->
+    <blockquote>
+        <p style="text-align: center;"><b>Nourishing bodies, empowering minds, building a community of compassion</b></p>
+    </blockquote>
+</div>
+<!-- end block quote -->
+<div style="text-align: justify;"><hr /></div>
+<!-- start featured event -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <h1 style="text-align: center;"><span style="color: inherit; font-family: inherit; font-size: 31.5px;">Hours of Operation:</span></h1>
+            <p style="text-align: center;">Mondays: 11:00 a.m. - 3 p.m., Thursdays: 10:00 a.m. - 2:00 p.m.</p>
+            <p style="text-align: center;"><a class="btn btn-primary btn-lg " role="button" href="{{f:49927}}">Request Food »</a></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+
+    <div class="col-md-6">
+        <h2 style="text-align: left;">About the Pantry</h2>
+        <div style="text-align: justify;">Full Circle Campus Food Pantry&nbsp;was established by the Volunteer Action Center in February 2011 as a student-run emergency food assistance program that distributes food and personal products to all members of the University of Arkansas community. &nbsp;Full Circle’s motto is:&nbsp;<b>nourishing bodies, empowering minds, building a community of compassion</b>. Pantry volunteers strive to offer an accessible, compassionate and dignified environment to supplement the nutritional needs of the University of Arkansas community. &nbsp;If you have any questions feel free to contact <span style="text-decoration: underline;"><a href="mailto:pantry@uark.edu">pantry@uark.edu</a></span> or call (479) 575-7693.</div>
+    </div>
+    <div class="col-md-6">
+        <h2 style="text-align: justify;">Upcoming Events</h2>
+        <div style="text-align: justify;">
+            <h4><span><img style="float: left; margin-left: 20px; margin-right: 20px;" src="{{f:69318}}" alt="flyer for feed the need" width="150" height="198" />Feed The Need</span></h4>
+            <p>Join the fight against hunger in Northwest Arkansas!</p>
+            <p><a class="btn btn-primary btn-sm" role="button" href="{{f:69318}}">Find Out More! »</a></p>
+
+<!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br />
+<hr />
+<br />
+<!--./end clearfix and horizontal rule-->
+        </div>
+    </div>
+
+</div>
