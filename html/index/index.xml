@@ -40,85 +40,113 @@
 
 <maincontent>
 <!-- com.omniupdate.div label="maincontent" group="everyone" button="707" break="break" --><!-- ouc:editor csspath="/_resources/ou/editor/ouedit.css" cssmenu="/_resources/ou/editor/styles.txt" width="1200"/ --><!--start carousel-->
-	
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+<!-- 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
 		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		</ol>
-		
+<!-- 		<ol class="carousel-indicators"> -->
+<!-- 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> -->
+<!-- 			<li data-target="#carousel-example-generic" data-slide-to="1"></li> -->
+<!-- 			<li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+<!-- 		</ol> -->
+
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="http://service.uark.edu/ldp_gallery/.private_ldp/a248/production/master/6c02067c-6deb-4095-9932-1cff4b70bd56.jpg" alt="Dream BIG" title="Dream B.I.G."/>
-				<div class="carousel-caption header-text hidden-xs">
-					<h2><span>Dream B.I.G.</span></h2>
-					<h3><span>Dream BIG Group Photo</span></h3>
+<!-- 		<div class="carousel-inner" role="listbox"> -->
+<!-- 			<div class="item active"> -->
+<!-- 				<img src="http://service.uark.edu/img/jumbotron-slider-img1.jpg" alt="Dream BIG" title="Dream B.I.G. - Believing in Girls"/> -->
+<!-- 				<div class="carousel-caption header-text hidden-xs"> -->
+<!-- 					<h2><span>Dream B.I.G. Winter Break</span></h2> -->
+<!-- 					<h3><span>Join our team and help us plan the best Spring Break empowerment camp yet!</span></h3> -->
 					<!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a>-->
-				</div>
-			</div>
-			<div class="item">
-				<img src="http://service.uark.edu/ldp_gallery/.private_ldp/a248/production/master/d6312ba6-3e3e-4a54-8c71-5f2f4e98ee42.jpg" alt="Students building food kits for faculty and staff in need of food aid." title="Full Circle Food Pantry"/>
-				<div class="carousel-caption header-text hidden-xs">
-					<h2><span>Full Circle Food Pantry</span></h2>
-					<h3><span>Students building food kits for faculty and staff in need of food aid</span></h3>
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 			<div class="item"> -->
+<!-- 				<img src="http://service.uark.edu/img/jumbotron-slider-img2.jpg" alt="Donation from Tyson" title="Full Circle Food Pantry"/> -->
+<!-- 				<div class="carousel-caption header-text hidden-xs"> -->
+<!-- 					<h2><span>Feed the Need</span></h2> -->
+<!-- 					<h3><span>Dinner to benefit Full Circle and Razorback Food Recovery.</span></h3> -->
 					<!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a>-->
-				</div>
-			</div>
-			<div class="item">
-				<img src="http://service.uark.edu/ldp_gallery/.private_ldp/a248/production/master/4040a585-44fa-4cc0-a5ca-a51af50acd7d.jpg" alt="Amanda's face getting painted by a little girl." title="Face Painting"/>
-				<div class="carousel-caption header-text hidden-xs">
-					<h2><span>Face Painting</span></h2>
-					<h3><span>Amanda's face getting painted by a little girl.</span></h3>
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 			<div class="item"> -->
+<!-- 				<img src="http://service.uark.edu/img/jumbotron-slider-img3.jpg" alt="Amanda's face getting painted by a little girl." title="Face Painting"/> -->
+<!-- 				<div class="carousel-caption header-text hidden-xs"> -->
+<!-- 					<h2><span>Clinton Global Initiative University</span></h2> -->
+<!-- 					<h3><span>Learn more about this opportunity to design your own service project.</span></h3> -->
 					<!--<a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a>-->
-				</div>
-			</div>
-		</div>
-		
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+
 		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-		
-	
-<!--<p>{{a:248}}</p>-->
-<hr /><!--end carousel--> <!--./start clearfix and horizontal rule-->
+<!-- 		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> -->
+<!-- 			<span class="glyphicon glyphicon-chevron-left"></span> -->
+<!-- 			<span class="sr-only">Previous</span> -->
+<!-- 		</a> -->
+<!-- 		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> -->
+<!-- 			<span class="glyphicon glyphicon-chevron-right"></span> -->
+<!-- 			<span class="sr-only">Next</span> -->
+<!-- 		</a> -->
+<!-- 	</div> -->
+
+<!--end carousel-->
+
+<!-- start old carousel -->
+	<p>{{a:248}}</p>
+<!-- end old carousel -->
+
+<!--./start clearfix and horizontal rule-->
 <div class="clearfix"></div>
+<br /><hr /><br /> 
+<!--./end clearfix and horizontal rule-->
+
+
+<!-- start events section -->
 <h2>Upcoming Events</h2>
 <p>&nbsp;</p>
 <div class="col-sm-8">
-<div class="row">
-<div class="col-sm-4"><img class="img-responsive" src="{{f:66837}}" alt="flyer for make a difference day" width="230" height="298" data-src="http://placehold.it/150x150" /></div>
-<div class="col-sm-8">
-<h4>Make A Difference Day</h4>
-<article>
-<p>Thank you to our volunteers and agencies for making another Make a Difference Day a HUGE success! &nbsp;Over 1,300 volunteers were able to make a difference in our community this weekend by attending some awesome events, projects and clean ups around Northwest Arkansas!</p>
-</article>
-<p><a class="btn btn-default" role="button" href="{{f:48799}}">Learn more »</a></p>
-</div>
-<!--./start clearfix and horizontal rule-->
-<div class="clearfix"></div>
-<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+    <!-- start dream big section -->
 <div class="row">
 <div class="col-sm-4"><img class="img-responsive" src="{{f:70286}}" alt="logo for dream big" width="100%" height="400" data-src="{{f:70286}}" /></div>
 <div class="col-sm-8">
 <h4>Dream BIG</h4>
 <article>
-<p>Mentor applications will be available October 24, 2014. Dream B.I.G. Application Available NOW! Join our team and help us plan the best Spring Break empowerment camp yet! Deadline is November 14th at noon.&nbsp;Interested in Mentoring?&nbsp;Come learn more about Dream B.I.G. and our program at our informational sessions:&nbsp;Wednesday November 5th at 5:00pm Arkansas Union 506&nbsp;Monday November 10th at 5:00pm Arkansas Union 506</p>
+<p>Dream B.I.G. Application Available NOW! Join our team and help us plan the best Spring Break empowerment camp yet! Deadline is November 14th at noon.&nbsp;</p>
 </article>
 <p><a class="btn btn-default" role="button" href="{{f:48787}}">Learn more »</a></p>
 </div>
 <!--./start clearfix and horizontal rule-->
 <div class="clearfix"></div>
 <br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+<!-- end dream big section -->
+<!-- start feed the need section -->
+<div class="row">
+    <div class="col-sm-4"><img class="img-responsive" src="{{f:70363}}" alt="placeholder" width="100%" height="130" data-src="{{f:65487}}" /></div>
+    <div class="col-sm-8">
+        <h4>Feed The Need</h4>
+        <article>
+            <p>Enjoy a meal prepared by Tyson's chefs, featuring dishes created with the most popular items donated at food pantries.</p>
+        </article>
+        <p><a class="btn btn-default" role="button" href="{{f:70363}}">Learn more »</a></p>
+    </div>
+    <!--./start clearfix and horizontal rule-->
+    <div class="clearfix"></div>
+    <br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+<!-- end feed the need section -->
+    <!-- start MADD section -->
+    <div class="row">
+        <div class="col-sm-4"><img class="img-responsive" src="{{f:66837}}" alt="flyer for make a difference day" width="230" height="298" data-src="http://placehold.it/150x150" /></div>
+        <div class="col-sm-8">
+            <h4>Make A Difference Day</h4>
+            <article>
+                <p>Thank you to our volunteers and agencies for making another Make a Difference Day a HUGE success! &nbsp;Over 1,300 volunteers were able to make a difference in our community this weekend by attending some awesome events, projects and clean ups around Northwest Arkansas!</p>
+            </article>
+            <p><a class="btn btn-default" role="button" href="{{f:48799}}">Learn more »</a></p>
+        </div>
+        <!--./start clearfix and horizontal rule-->
+        <div class="clearfix"></div>
+        <br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+    <!-- end MADD section -->
+
 <div class="row">
 <div class="col-sm-4"><img class="img-responsive" src="{{f:67275}}" alt="cgiu logo" width="299" height="168" data-src="{{f:67275}}" /></div>
 <div class="col-sm-8">
@@ -131,18 +159,7 @@
 <!--./start clearfix and horizontal rule-->
 <div class="clearfix"></div>
 <br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
-<div class="row">
-<div class="col-sm-4"><img class="img-responsive" src="{{f:70363}}" alt="placeholder" width="100%" height="130" data-src="{{f:65487}}" /></div>
-<div class="col-sm-8">
-<h4>Feed The Need</h4>
-<article>
-<p>Enjoy a meal prepared by Tyson's chefs, featuring dishes created with the most popular items donated at food pantries.</p>
-</article>
-<p><a class="btn btn-default" role="button" href="{{f:70363}}">Learn more »</a></p>
-</div>
-<!--./start clearfix and horizontal rule-->
-<div class="clearfix"></div>
-<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div>
+
 <div class="row">
 <div class="col-sm-4"><img class="img-responsive" src="{{f:67278}}" alt="service learning logo" width="307" height="397" data-src="{{f:67278}}" /></div>
 <div class="col-sm-8">
@@ -162,6 +179,7 @@
                     margin-bottom: 5px !important;
                 }
 --></style>
+
 <!-- start rss feed -->
 	<script type="text/javascript">// <![CDATA[
 			$(function (){
@@ -170,14 +188,14 @@
 					url: '{{f:47389}}',
 					data: { requrl: "http://volunteer.uark.edu/rss/volunteer-opportunity-calendar.xml" },
 					success: function (xml) {
-					
+
 					var today = new Date();
 
 					var list_data = "";
 					var terms = $(xml).find('item').get();
 					terms.sort(function (t1, t2) {
 
-						
+
 						var h1 = (new Date($(t1).find('pubDate').text())),
 						h2 = (new Date($(t2).find('pubDate').text()));
 
@@ -185,11 +203,11 @@
 					})
 
 					var i = 1;
-					
+
 					$.each(terms, function () {
 
 							var pubDate = $(this).find('pubDate').text();
-							
+
 							if(new Date(pubDate) >= new Date())
 							{
 									if(i <= 5) {
@@ -197,24 +215,25 @@
 										var description = $(this).find('description').text();
 										description = description.replace("â€˜","'").replace("â€™","'").replace("â€œ","\"").replace("â€","\"");
 										var link = $(this).find('link').text();
-										
+
 										list_data += '<div class="listEvent" style="margin: 10px 0;"><h4><a href="' + link + '">' + title + '</a></h4><p>' + description + '</p></div>';
 										i++;
 								}
 						}
 					});
 						$("#serviceEvents").append(list_data);
-					
+
 					}
 				});
-			
-			
+
+
 			});
 
 
 // ]]></script>
+<!-- end rss feed -->
+
 <div id="serviceEvents"></div>
-    <!-- end rss feed -->
 </div>
 </div>
 </maincontent>
