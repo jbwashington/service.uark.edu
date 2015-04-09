@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#site-heading-parent a {
+color: #333;
+}
+#site-heading-parent a:hover {text-decoration:none;}
+#site-heading, #site-heading-parent {
+font-size: 20px;
+}
+@media (min-width: 768px){
+#site-heading, #site-heading-parent {
+top: 62px;
+left: 240px;
+position: absolute;
+}
+#site-heading-parent {top:32px;}
+}
+@media (min-width: 992px) {
+#site-heading, #site-heading-parent {
+top: 50px;
+font-size: 30px;
+}
+#site-heading-parent {top:20px;font-weight:300;}
+
+}

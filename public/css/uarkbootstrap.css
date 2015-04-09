@@ -1,0 +1,169 @@
+#skip a, #skip a:hover, #skip a:visited
+{
+position:absolute;
+left:0px;
+top:-500px;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#skip a:active, #skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
+
+
+.navbar-inverse .navbar-brand {
+	color: #f0f0f0;
+}
+
+.uark-branding {
+	min-height:50px;
+	background: #b00000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b00000 0%, #900000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b00000), color-stop(100%,#900000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b00000 0%,#900000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b00000 0%,#900000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b00000 0%,#900000 100%); /* IE10+ */
+	background: linear-gradient(top,  #b00000 0%,#900000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b00000', endColorstr='#900000',GradientType=0 ); /* IE6-9 */
+}
+.uark-branding a {
+	font-family:"Century Gothic",Arial,sans-serif;
+	font-weight:lighter;
+	text-shadow:none;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 0;
+}
+.uark-branding .brand {
+	padding-top:14px;
+}
+.uark-branding .uark-logo {
+	height:45px;
+	width:175px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background:url(logo_uark.png) no-repeat bottom left;
+	display: block;
+}
+@media screen and (min-width: 767px) {
+	.uark-branding .uark-logo {
+		float: right;
+	}
+}
+
+.uark-branding .branding-dept {
+	margin-bottom: 5px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus,
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	color: #333;
+}
+
+.content {
+	outline: none;
+}
+
+
+h1 {
+	font-size:26px;
+}
+h2 {
+	font-size:22px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.page-header {
+	margin-top:5px;
+}
+
+blockquote p {
+	font-size: 14.5px;
+}
+
+
+
+/*
+a.external:after {
+	content: '\f054';
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size:.7em;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: inherit;
+	display: inline-block;
+	speak: none;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	margin-top: 0;
+	margin-left:.3em;
+}
+*/
+
+a.external {
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGMkU1RjY1MUUwQTMxMUUwQTlFQjk2Q0E1NEEzNUE4QSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGMkU1RjY1MkUwQTMxMUUwQTlFQjk2Q0E1NEEzNUE4QSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkYyRTVGNjRGRTBBMzExRTBBOUVCOTZDQTU0QTM1QThBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkYyRTVGNjUwRTBBMzExRTBBOUVCOTZDQTU0QTM1QThBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ZN5IZgAAAGxJREFUeNpi/P//PwMxgImBSMACIrYrqoGo90AsgK7A8/4tRhDNCLKakZGRAeYEoKZ6INWArhCb1Q043bhNQRVm2n9cGuAmoikCWdeITSHIEweQFMHABTgLORxBToA5A8oXAMmDPUxsgAMEGACU+SgZu3UsKwAAAABJRU5ErkJggg==');
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right:10px;
+}
+a.label.external {
+	background-image:none;
+	padding-right:3px;
+}
+
+.icn-facebook, .icn-twitter {
+	background:url(//www.uark.edu/~uarkinfo/media/social_icons.gif) 0 0 no-repeat;
+	padding:0 0 10px 22px;
+	line-height:20px;
+}
+.icn-twitter { background-position: 0 -25px;}
+
+
+.form-horizontal .form-group {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#prefooter {
+  padding-top:0;
+  margin-top:30px;
+}
+#prefooter h4, #prefooter p, #prefooter ul {
+  padding-left:20px;
+}
+#prefooter h2 {
+  display: none;
+}
+#prefooter h4 {
+  color:#333333;
+}
+#prefooter a {
+	text-decoration:none;
+}
+#prefooter a:active,
+#prefooter a:hover {
+	text-decoration:underline;
+}
+#prefooter a i {
+  color:#666;
+}
+#prefooter .its-icon img {
+	margin-right: 8px;
+}
