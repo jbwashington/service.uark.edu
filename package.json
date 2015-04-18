@@ -1,0 +1,32 @@
+{
+  "name": "service.uark.edu",
+  "version": "0.0.0",
+  "description": "website redesign for Center for Community Engagement, University of Arkansas",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbwashington/service.uark.edu.git"
+  },
+  "keywords": [
+    "uark",
+    "arkansas",
+    "razorbacks",
+    "design",
+    "css",
+    "html",
+    "bootstrap",
+    "js",
+    "php",
+    "less",
+    "grunt"
+  ],
+  "author": "James Washington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbwashington/service.uark.edu/issues"
+  },
+  "homepage": "https://github.com/jbwashington/service.uark.edu"
+}

@@ -6429,8 +6429,10 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after,
-.main-content:before,
-.main-content:after {
+.slider:before,
+.slider:after,
+.slider:before,
+.slider:after {
   content: " ";
   display: table;
 }
@@ -6449,7 +6451,8 @@ button.close {
 .pager:after,
 .panel-body:after,
 .modal-footer:after,
-.main-content:after {
+.slider:after,
+.slider:after {
   clear: both;
 }
 .center-block {
@@ -8521,71 +8524,159 @@ button.close {
 .five {
   color: #480918;
 }
-.main-content {
+.uark-branding {
+  min-height: 50px;
+  background: #b00000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #b00000 0%, #900000 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b00000), color-stop(100%, #900000));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b00000 0%, #900000 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b00000 0%, #900000 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b00000 0%, #900000 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #b00000 0%, #900000 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b00000', endColorstr='#900000', GradientType=0);
+  /* IE6-9 */
+}
+.uark-branding #skip a,
+.uark-branding #skip a:hover,
+.uark-branding #skip a:visited {
+  position: absolute;
+  left: 0px;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.uark-branding #skip a:active,
+.uark-branding #skip a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.uark-branding a {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-weight: lighter;
+  text-shadow: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 0;
+}
+.uark-branding .brand {
+  padding-top: 14px;
+}
+.uark-branding .uark-logo {
+  height: 45px;
+  width: 175px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(public/img/logo_uark.png) no-repeat bottom left;
+  display: block;
+}
+@media screen and (min-width: 767px) {
+  .uark-branding {
+    float: right;
+  }
+}
+.uark-branding .branding-dept {
+  background-color: #a2151f;
+  margin-bottom: 5px;
+}
+.uark-branding .navbar-text {
+  background-color: #a2151f;
+}
+.uark-branding .navbar {
+  z-index: 9;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  min-height: 57px;
+  max-height: 57px;
+  margin-bottom: 0;
+}
+.uark-branding .navbar .btn-navbar {
+  color: #666;
+  text-shadow: none;
+}
+.uark-branding .navbar-static-top {
+  background-color: #a2151f;
+}
+.uark-branding .navbar-inverse {
+  color: #f0f0f0;
+}
+.uark-branding .navbar-brand {
+  background-color: #a2151f;
+}
+.uark-branding .nav {
+  background-color: #a2151f;
+}
+.uark-branding .navbar-nav {
+  background-color: #a2151f;
+}
+.slider {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: -15px;
   margin-right: -15px;
 }
-.main-content .sidebar {
-  padding: 20px;
+.slider .left {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: #ff6670;
 }
 @media (min-width: 992px) {
-  .main-content .sidebar {
-    padding: 30px;
-  }
-}
-.main-content .sidebar h2 {
-  font-size: 20px;
-}
-@media (min-width: 992px) {
-  .main-content .sidebar h2 {
-    font-size: 30px;
-  }
-}
-@media (min-width: 768px) {
-  .main-content .sidebar {
+  .slider .left {
     float: left;
-    width: 16.66666667%;
+    width: 50%;
   }
 }
-@media (min-width: 992px) {
-  .main-content .sidebar {
-    float: left;
-    width: 25%;
-  }
-}
-.main-content .content-area {
-  line-height: 1.2em;
+.slider .right {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: #a32931;
 }
 @media (min-width: 992px) {
-  .main-content .content-area {
-    line-height: 1.6em;
-  }
-}
-.main-content .content-area h1 {
-  font-size: 30px;
-}
-@media (min-width: 992px) {
-  .main-content .content-area h1 {
-    font-size: 40px;
-  }
-}
-@media (min-width: 768px) {
-  .main-content .content-area {
+  .slider .right {
     float: left;
-    width: 83.33333333%;
+    width: 50%;
   }
 }
-@media (min-width: 992px) {
-  .main-content .content-area {
-    float: left;
-    width: 75%;
-  }
+.my-fluid-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lato.regular {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+.lato.medium {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+.lato.heavy {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }

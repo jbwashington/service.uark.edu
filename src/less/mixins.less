@@ -1,9 +1,12 @@
+@import "variables.less";
+
 // gray mixin
-// use: ".gray(67);" --> 0 = black, 100 = white
 //---------------------------------------------
 .gray(@percent) {
 color: lighten(@black, percentage(@percent / 100));
 }
+// use: (0=black,100=white)
+// .gray(67);
 
 
 
@@ -29,14 +32,47 @@ color: lighten(@black, percentage(@percent / 100));
 }
 
 // CSS Text Select Highlight
-// This is how you use it:
-// ".highlight(@yourColor, @white);"
-//-------------------------
-
+//------------------------------
 .highlight(@backgroundColor, @textColor) {
   ::selection, -moz::selection {
 background: @backgroundColor;
 color: @textColor;
   }
 }
+// This is how you use it:
+//------------------------------
+// .highlight(@primary, @white);
 
+/* Linear Gradient */
+//------------------------------
+.gradient (@origin: left, @start: #ffffff, @stop: #000000) {
+    background-color: @start;
+    background-image: -webkit-linear-gradient(@origin, @start, @stop);
+    background-image: -moz-linear-gradient(@origin, @start, @stop);
+    background-image: -o-linear-gradient(@origin, @start, @stop);
+    background-image: -ms-linear-gradient(@origin, @start, @stop);
+    background-image: linear-gradient(@origin, @start, @stop);
+}
+/* Implementation: */
+//------------------------------
+#someDiv {
+  .gradient(left, #663333, #333333);
+}
+
+
+
+//------------------------------
+// Dark Red Complementary Colors:
+//------------------------------
+@lighter1: lighten(spin(@primary, 5), 10%);
+@lighter2: lighten(spin(@primary, 10), 20%);
+@darker1: darken(spin(@primary, -5), 10%);
+@darker2: darken(spin(@primary, -10), 20%);
+
+// Implementation
+//------------------------------
+.one   {color: @primary;}
+.two   {color: @lighter1;}
+.three {color: @lighter2;}
+.four  {color: @darker1;}
+.five  {color: @darker2;}
