@@ -1,29 +1,15 @@
-module.exports = function(grunt) {
-  require('jit-grunt')(grunt);
+// Gruntfile.js
 
-  grunt.initConfig({
-    less: {
-      development: {
-        options: {
-          compress: true,
-          yuicompress: true,
-          optimization: 2
-        },
-        files: {
-          "./public/css/styles.css": "./src/less/styles.less" // destination file and source file
-        }
-      }
+module.exports = function(grunt) {
+  var path = require('path');
+
+  require('load-grunt-config')(grunt, {
+    configPath: path.join(process.cwd(), 'grunt/config'),
+    jitGrunt: {
+      customTasksDir: 'grunt/tasks'
     },
-    watch: {
-      styles: {
-        files: ['./src/less/**/*.less'], // which files to watch
-        tasks: ['less'],
-        options: {
-          nospawn: true
-        }
-      }
+    data: {
+      foo: 'bar' // accessible with '<%= foo %>'
     }
   });
-
-  grunt.registerTask('default', ['less', 'watch']);
 };
