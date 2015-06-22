@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pcf-stylesheet path="/xsl/interior.xsl" site="templates" extension="php"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document xmlns:ouc="http://omniupdate.com/XSL/Variables">
+  <headcode></headcode>
+  <bodycode></bodycode>
+  <config>
+    <parameter name="pagetype">interior</parameter>
+<!-- com.omniupdate.properties -->
+<parameter name="numcols" type="select" group="everyone" prompt="Number of Columns" alt="Select the number of columns for the page layout.">
+  <option value="1" selected="false">One (no sidebar)</option>
+  <option value="2" selected="true">Two</option>
+  <option value="3" selected="false">Three</option>
+  <option value="4" selected="false">Four</option>
+</parameter>
+<!-- /com.omniupdate.properties -->
+</config>
+
+<!-- com.omniupdate.properties -->
+<title>Center for Community Engagement</title>
+<!-- /com.omniupdate.properties -->
+
+<metadata>
+<!-- com.omniupdate.properties -->
+<meta name="Description" content="Center for Community Engagement" />
+<meta name="Keywords" content="Center for Community Engagement" />
+<meta name="Author" content="" />
+<!-- /com.omniupdate.properties -->
+</metadata>
+
+
+<leftcolumn>
+<!-- com.omniupdate.div label="coltwocontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Left Column</h2>
+
+<!-- /com.omniupdate.div -->
+</leftcolumn>
+
+<maincontent>
+<!-- com.omniupdate.div label="maincontent" group="everyone" button="707" break="break" --><!-- ouc:editor csspath="/_resources/ou/editor/ouedit.css" cssmenu="/_resources/ou/editor/styles.txt" width="1200"/ --><!-- start old carousel --> {{a:248}} <!-- end old carousel --> <!-- Page Heading -->
+<h1 class="page-header">Events Spotlight</h1>
+<div class="col-sm-8 col-md-8 col-lg-8"><!-- /.row --> <!-- Spotlight One -->
+  <div class="row">
+    <div class="col-sm-7 col-md-7 col-lg-7"><a href="https://uark.givepulse.com"> <img class="img-responsive img-circle" src="{{f:157893}}" alt="logo" width="750" height="750" /> </a></div>
+    <div class="col-sm-5 col-md-5 col-lg-5">
+      <h3>Give Pulse</h3>
+      <p><a href="Volunteer.uark.edu">Volunteer.uark.edu</a> has now transitioned to GivePulse as a new framework for finding and logging volunteer hours (impacts). &nbsp;Agencies can use this new platform to post volunteer opportunities and students can use this platform to find an opportunity that works with their schedule and interest. &nbsp;Login today to learn more about this great website. &nbsp;</p>
+      <a class="btn btn-default btn-lg uaRed" href="https://uark.givepulse.com">Volunteer/Agency Login</a></div>
+  </div>
+<!-- /.row --> <!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--> <!-- end Spotlight One --> <!-- Spotlight One -->
+<div class="row">
+  <div class="col-sm-7 col-md-7 col-lg-7"><a href="{{f:48792}}"> <img class="img-responsive img-circle" src="{{f:119705}}" alt="" /> </a></div>
+  <div class="col-sm-5 col-md-5 col-lg-5">
+    <h3>Summer Volunteers Needed</h3>
+    <p>Summer Volunteers are needed to help with our Razorback Food Recover Program. &nbsp;Apply today and help put an end to food waste and hunger. &nbsp;</p>
+    <a class="btn btn-default btn-lg uaRed" href="{{f:48792}}">Get Involved</a></div>
+</div>
+<!-- /.row --> <!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--> <!-- end Spotlight One --> <!-- Spotlight Two -->
+<div class="row">
+  <div class="col-sm-7 col-md-7 col-lg-7"><a href="{{f:49921}}"> <img class="img-responsive img-circle" src="{{f:65487}}" alt="logo" width="717" height="717" /> </a></div>
+  <div class="col-sm-5 col-md-5 col-lg-5">
+    <h3>Summer Volunteers Needed</h3>
+    <h4>Volunteer at the Full Circle Food Pantry this summer and help those suffering from food insecurity.</h4>
+    <a class="btn btn-default btn-lg uaRed" href="{{f:49923}}">Find Out More</a></div>
+</div>
+<!-- /.row --> <!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--> <!-- end Spotlight two --> <!-- Spotlight Three --> <!-- end Spotlight three --> <!-- Spotlight Five -->
+<div class="row">
+  <div class="col-sm-7 col-md-7 col-lg-7"><a href="{{f:65069}}"> <img class="img-responsive img-circle" src="{{f:119728}}" alt="" /> </a></div>
+  <div class="col-sm-5 col-md-5 col-lg-5">
+    <h3>VAC Literacy Program</h3>
+    <p>Looking for a fun way to make a positive impact on a child's life? VAC Literacy may be the perfect fit for you!</p>
+    <a class="btn btn-default btn-lg uaRed" href="{{f:65069}}">Check it Out </a></div>
+</div>
+<!-- end Spotlight Five --> <!-- Spotlight Six --> <!-- end Spotlight Six --> <!-- /.row --> <!--./start clearfix and horizontal rule-->
+<div class="clearfix"></div>
+<br /><hr /><br /> <!--./end clearfix and horizontal rule--></div><!-- /com.omniupdate.div -->
+<div class="col-sm-4">
+  <div class="well well-sm">
+    <style><!--
+#serviceEvents hr {
+                    margin-top: 0px !important;
+                    margin-bottom: 5px !important;
+                }
+--></style>
+
+<!-- start rss feed -->
+        <script type="text/javascript">// <![CDATA[
+          $(function (){
+          $.ajax({
+          type: 'GET',
+          url: '{{f:47389}}',
+          data: { requrl: "http://volunteer.uark.edu/rss/volunteer-opportunity-calendar.xml" },
+          success: function (xml) {
+
+          var today = new Date();
+
+          var list_data = "";
+          var terms = $(xml).find('item').get();
+          terms.sort(function (t1, t2) {
+
+
+          var h1 = (new Date($(t1).find('pubDate').text())),
+          h2 = (new Date($(t2).find('pubDate').text()));
+
+          return (h1 < h2) ? -1 : (h1 > h2) ? 1 : 0;
+          })
+
+          var i = 1;
+
+          $.each(terms, function () {
+
+          var pubDate = $(this).find('pubDate').text();
+
+          if(new Date(pubDate) >= new Date())
+          {
+          if(i <= 5) {
+          var title = $(this).find('title').text();
+          var description = $(this).find('description').text();
+          description = description.replace("â€˜","'").replace("â€™","'").replace("â€œ","\"").replace("â€","\"");
+          var link = $(this).find('link').text();
+
+          list_data += '<div class="listEvent" style="margin: 10px 0;"><h4><a href="' + link + '">' + title + '</a></h4><p>' + description + '</p></div>';
+          i++;
+          }
+          }
+          });
+          $("#serviceEvents").append(list_data);
+
+          }
+          });
+
+
+          });
+
+
+          // ]]></script>
+<!-- end rss feed -->
+<div id="serviceEvents"></div>
+</div>
+</div>
+</maincontent>
+
+<rightcolumn>
+<!-- com.omniupdate.div label="colthreecontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Right Column</h2>
+
+<!-- /com.omniupdate.div -->
+</rightcolumn>
+
+<far-rightcolumn>
+<!-- com.omniupdate.div label="colfourcontent" group="everyone" button="707" break="break" -->
+<!-- com.omniupdate.editor csspath="/_resources/ou/editor/ouedit.css" width="1200" cssmenu="/_resources/ou/editor/styles.txt" -->
+<h2>Far Right Column</h2>
+
+<!-- /com.omniupdate.div -->
+</far-rightcolumn>
+
+</document>
