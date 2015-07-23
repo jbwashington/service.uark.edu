@@ -1,44 +1,35 @@
 {
   "name": "service.uark.edu",
-  "version": "0.0.0",
-  "description": "website redesign for Center for Community Engagement, University of Arkansas",
-  "main": "Gruntfile.js",
+  "version": "1.0.0",
+  "description": "development sandbox for service.uark.edu",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "grunt"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jbwashington/service.uark.edu.git"
+    "url": "git+https://github.com/jbwashington/service.uark.edu.git"
   },
   "keywords": [
     "uark",
     "arkansas",
-    "razorbacks",
-    "design",
-    "css",
-    "html",
-    "bootstrap",
-    "js",
-    "php",
-    "less",
-    "grunt"
+    "university",
+    "service",
+    "VAC",
+    "volunteer"
   ],
-  "author": "James Washington",
+  "author": "James Washington, Kamille Barker, and The Honorable Angela Oxford",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jbwashington/service.uark.edu/issues"
   },
-  "homepage": "https://github.com/jbwashington/service.uark.edu",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-autoprefixer": "^3.0.0",
-    "grunt-concurrent": "^1.0.0",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-less": "^1.0.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "jit-grunt": "^0.9.1",
-    "load-grunt-config": "^0.17.0",
-    "matchdep": "^0.3.0",
-    "time-grunt": "^1.1.1"
-  }
+  "homepage": "https://github.com/jbwashington/service.uark.edu#readme"
 }
