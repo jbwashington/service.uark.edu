@@ -1,0 +1,22 @@
+{
+  "name": "svc-uark",
+  "version": "0.0.0",
+  "homepage": "http://service.uark.edu/",
+  "authors": [
+    "jbwashington <jbwashington@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

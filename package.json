@@ -1,35 +1,24 @@
 {
   "name": "service.uark.edu",
   "version": "1.0.0",
-  "description": "development sandbox for service.uark.edu",
+  "description": "development sandbox for the Center for Community Engagement at the University of Arkansas",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Washington",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.0.0",
+    "grunt-sass-bootstrapper": "^1.1.0",
+    "matchdep": "^0.3.0"
   },
   "dependencies": {
-    "chai": "^3.2.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbwashington/service.uark.edu.git"
-  },
-  "keywords": [
-    "uark",
-    "arkansas",
-    "university",
-    "service",
-    "VAC",
-    "volunteer"
-  ],
-  "author": "James Washington, Kamille Barker, and The Honorable Angela Oxford",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jbwashington/service.uark.edu/issues"
-  },
-  "homepage": "https://github.com/jbwashington/service.uark.edu#readme"
+    "grunt": "^0.4.5"
+  }
 }

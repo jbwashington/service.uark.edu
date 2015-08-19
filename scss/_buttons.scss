@@ -1,0 +1,94 @@
+// GLOBAL COLORS
+// -------------
+$razorback-red : #9D2235; // razorback red/burgundy/whatever
+$dream-big-red    : #FF5859; // dream big
+$vac-purple : #842FA7; // VAC
+$engagement-teal   : #1FCFCB; // student engagement
+$recovery-yellow : #F5BA0A; // recovery
+$pantry-green  : #00B44E; // pantry
+$literacy-blue   : #2A7DE2; // literacy
+
+
+// DEFAULT BUTTON
+// --------------
+.btn {
+  background-color : $razorback-red;
+  background-image : none;
+  border: 1px solid $razorback-red;
+  border-color : #F2F2F4;
+  transition: all 0.3s ease-in-out;
+  display : inline-block;
+  margin-bottom : 0;
+  text-align : center;
+  vertical-align : middle;
+  cursor : pointer;
+  white-space : nowrap;
+  padding : 6px 12px;
+  font-size : 2em;
+}
+.btn:hover {
+  background-color:white;
+  color:$razorback-red;
+  border-color:$razorback-red;
+}
+.btn:active {
+  position:static;
+  width:auto;
+  height:auto;
+}
+
+// DEPARTMENTAL BUTTONS
+// --------------------
+
+// baseline button theme (regular ol' razorback red)
+@mixin btn-theme {
+  background-color : $razorback-red;
+  border: 1px solid $razorback-red;
+  &:hover {
+    background-color : white;
+    color : $razorback-red;
+    border-color : $razorback-red;
+  }
+  &:active {
+    position:static;
+    width:auto;
+    height:auto;
+  }
+  text: {
+    text-transform : uppercase;
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight : 400;
+  }
+
+}
+
+
+// Dream Big
+.btn-dream-big {
+  @include btn-theme($dream-big-red);
+}
+
+// VAC
+.btn-vac {
+  @include btn-theme($vac-purple);
+}
+
+// Engagement
+.btn-engagement {
+  @include btn-theme($engagement-teal);
+}
+
+// Recovery
+.btn-recovery {
+  @include btn-theme($recovery-yellow);
+}
+
+// Pantry
+.btn-pantry {
+  @include btn-theme($pantry-green);
+}
+
+// Literacy
+.btn-literacy {
+  @include btn-theme($literacy-blue);
+}

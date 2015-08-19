@@ -1,0 +1,21 @@
+.blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+.btn-blog {
+  color: #ffffff;
+  background-color: #A00;
+  border-color: #F0ECEA;
+  border-radius:0;
+  margin-bottom:10px
+}
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog {
+  color: white;
+  background-color:#9D2235;
+  border-color: #F0ECEA;
+}
+
+.margin5{margin-bottom:5px; margin-right:5px;}

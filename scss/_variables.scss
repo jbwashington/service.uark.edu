@@ -1,0 +1,32 @@
+// Global Colors
+// ------------
+
+
+
+$body-color            : #5A5A5A;
+$text-color            : #717277;
+$link-color            : #AA0000;
+
+$dark-gray             : $body-color;
+$light-gray            : $text-color;
+
+// Departmental Colors
+// -------------------
+$dream-big-red         : #FF5859;
+$vac-purple            : #842FA7;
+$engagement-teal       : #1FCFCB;
+$recovery-yellow       : #F5BA0A;
+$pantry-green          : #00B44E;
+$literacy-blue         : #2A7DE2;
+
+// Fonts
+// -----
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700|Merriweather:400,700);
+
+$Lato: 'Lato', sans-serif;
+$Merriweather: 'Merriweather', serif;
+
+$base-font-size: 1.7 !default;
+$base-font-family: $Lato, Helvetica, Arial, sans-serif !default;
+$alternate-font-family: $Merriweather, Times New Roman, serif !default;
+$base-font-color: $text-color !default;
