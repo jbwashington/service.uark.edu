@@ -1,5 +1,8 @@
-// GLOBAL COLORS
+// BUTTON STYLES
 // -------------
+
+// DEPARTMENTAL COLORS
+// -------------------
 $razorback-red : #9D2235; // razorback red/burgundy/whatever
 $dream-big-red    : #FF5859; // dream big
 $vac-purple : #842FA7; // VAC
@@ -7,7 +10,6 @@ $engagement-teal   : #1FCFCB; // student engagement
 $recovery-yellow : #F5BA0A; // recovery
 $pantry-green  : #00B44E; // pantry
 $literacy-blue   : #2A7DE2; // literacy
-
 
 // DEFAULT BUTTON
 // --------------
@@ -41,13 +43,13 @@ $literacy-blue   : #2A7DE2; // literacy
 // --------------------
 
 // baseline button theme (regular ol' razorback red)
-@mixin btn-theme {
-  background-color : $razorback-red;
-  border: 1px solid $razorback-red;
+@mixin btn-theme($dept-color) {
+  background-color : $dept-color;
+  border: 1px solid $dept-color;
   &:hover {
     background-color : white;
-    color : $razorback-red;
-    border-color : $razorback-red;
+    color : $dept-color;
+    border-color : $dept-color;
   }
   &:active {
     position:static;

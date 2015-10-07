@@ -1,0 +1,40 @@
+
+// ROW MIXIN
+// ---------
+section {
+  @include make-row();
+  article {
+    @include make-lg-column(2);
+  }
+}
+
+// SIZE MIXIN
+// ----------
+.full-width-responsive {
+  @include size(100%, auto);
+}
+
+// PANEL STYLING
+// arguments: ($border, $heading-text-color, $heading-bg-color, $heading-border)
+// -----------------------------------------------------------------------------
+.panelrow {
+    @include panel-variant(#d01919, #1cf21c, #000000, #bad017);
+}
+
+// VARIANT BUTTON
+// arguments: ($color, $background, $border)
+// -----------------------------------------
+.custom-btn {
+  @include button-variant(#cece19, #000000, #2dbe27);
+}
+
+
+// GRADIENT MIXIN
+// arguments:($start-color,$end-color,$start-percent,$end-percent)
+// ---------------------------------------------------------------
+
+.example {
+  @include gradient-horizontal(#1834cc, #1dc937, 0%, 100%);
+}
+
+

@@ -1,0 +1,27 @@
+@import "_variables.scss";
+@import "_buttons.scss";
+@import "_bootstrap.scss";
+
+
+// call to action section
+// ----------------------
+
+.call-to-action {
+  background : $razorback-red;
+  color : white;
+  text-align : center;
+  padding : 2em 0;
+  display : block;
+  box-sizing : border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.428571429;
+
+  @include make-row();
+  .content {
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+  }
+}
+
+

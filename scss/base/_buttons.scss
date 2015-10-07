@@ -1,0 +1,89 @@
+// GLOBAL COLORS
+// -------------
+$razorback-red : #9D2235;
+$dream-big-red    : #FF5859;
+$vac-purple : #842FA7;
+$engagement-teal   : #1FCFCB;
+$recovery-yellow : #F5BA0A;
+$pantry-green  : #00B44E;
+$literacy-blue   : #2A7DE2;
+
+// DEFAULT BUTTON
+// --------------
+.btn {
+  display: inline-block;
+  padding : .5em 1.2em;
+  background-color : $razorback-red;
+  border: .19em solid white;
+  color : white;
+  border-radius : .12em;
+  border-color : #F2F2F4;
+  text-transform : uppercase;
+  cursor : pointer;
+  font-size : 1.2em;
+  white-space : nowrap;
+  vertical-align : middle;
+  text-align : center;
+  margin-bottom : 0;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color : white;
+  color : $razorback-red;
+  border-color : $razorback-red;
+}
+.btn:active {
+  position:static;
+  width:auto;
+  height:auto;
+}
+
+// button color function
+@mixin btn-theme($btn-color) {
+  background-color : $btn-color;
+
+  &:hover {
+    background-color : white;
+    color : $btn-color;
+    border-color : $btn-color;
+  }
+  &:active {
+    position:static;
+    width:auto;
+    height:auto;
+  }
+  text: {
+    text-transform : uppercase;
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight : 400;
+  }
+}
+
+// default color
+.razorback-red {
+  @include btn-theme($razorback-red);
+}
+// dream big
+.dream-big-red {
+  @include btn-theme($dream-big-red);
+}
+// volunteer action center
+.vac-purple {
+  @include btn-theme($vac-purple);
+}
+// student engagement
+.engagement-teal {
+  @include btn-theme($engagement-teal);
+}
+// razorback food recovery
+.recovery-yellow {
+  @include btn-theme($recovery-yellow);
+}
+// full circle food pantry
+.pantry-green {
+  @include btn-theme($pantry-green);
+}
+// VAC literacy program
+.literacy-blue {
+  @include btn-theme($literacy-blue);
+}

@@ -1,0 +1,112 @@
+@import "variables.scss";
+@import "bootstrap.scss";
+@import "bootstrap-compass.scss";
+
+
+// TYPOGRAPHY AND TEXT STYLES
+// --------------------------
+
+@font-face {
+  font-family: Whitney-Bold, Helvetica, arial, sans-serif;
+  src: url('http://service-dev2.uark.edu/_resources/fonts/Whitney-Bold.otf') format("opentype"),
+  font-weight: 300;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: Whitney-Book, Helvetica, arial, sans-serif;
+  src: url('http://service-dev2.uark.edu/_resources/fonts/Whitney-Book.otf') format("opentype"),
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Whitney-BookItalic, Helvetica Neue, arial, sans-serif;
+  src: url('http://service-dev2.uark.edu/_resources/fonts/Whitney-BookItalic.otf') format("opentype"),
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Whitney-Medium, Helvetica Neue, arial, sans-serif;
+  src: url('http://service-dev2.uark.edu/_resources/fonts/Whitney-Medium.otf') format("opentype"),
+  font-weight: 300;
+  font-style: normal;
+}
+// mixins
+// ------
+
+
+
+@mixin Whitney-Bold {
+  font-family: 'Whitney-Bold', arial, sans-serif;
+font-weight: 300; font-style: normal; }
+
+@mixin Whitney-Book {
+  font-family: 'Whitney-Book', arial, sans-serif;
+font-weight: 300; font-style: normal; }
+
+@mixin Whitney-BookItalic {
+  font-family: 'Whitney-BookItalic', arial, sans-serif;
+font-weight: 400; font-style: italic; }
+
+@mixin WhitneyMedium {
+  font-family: 'WhitneyMedium', arial, sans-serif;
+font-weight: 400; font-style: normal; }
+
+/* Demo Styles */
+/* ----------- */
+
+body {
+  @include Whitney-Medium;
+  font-size: 100%;
+line-height: 1.4; }
+
+.container {
+  width: 40%;
+margin: 0 auto; }
+
+h1, h2, h3 {
+  @include Whitney-Bold;
+margin: 0; }
+
+h1 {
+font-size: 2em; }
+
+h2 {
+font-size: 1.6em; }
+
+h3 {
+font-size: 1.2em; }
+
+p {
+margin: 0 0 1em 0; }
+
+strong {
+@include Whitney-Bold; }
+
+em {
+@include Whitney-BookItalic; }
+
+p.bold {
+  @include Whitney-Bold;
+  em { @include Whitney-BookItalic; }
+}
+
+.warning {
+  border: 1px solid #CC0000;
+  border-radius: 2px;
+  background-color: rgba(#CC0000, 0.1);
+  color: #CC0000;
+  font-size: 0.75em;
+  display: none;
+  padding: 0.25em;
+  width: 40%;
+  margin: 1em auto;
+}
+
+@-moz-document url-prefix() {
+  .warning {
+    display: block;
+  }
+}
